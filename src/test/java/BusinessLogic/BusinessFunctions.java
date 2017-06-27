@@ -37,6 +37,7 @@ public class BusinessFunctions {
 		// verify Login page
 		assertEquals(driver.getTitle(),"OrangeHRM - New Level of HR Management");
 		Reporter.log("Login Page Displayed");
+		System.out.println("This is testng reporter");
 		
 		// Create Object for UN and PWD
 		objUN=driver.findElement(By.name("txtUserName"));
