@@ -1,0 +1,7 @@
+<suite name="modularframework">
+<test name="logintest">
+<classes>
+<class name="TestScripts.LoginTestCase"/>
+</classes>
+</test>
+</suite>

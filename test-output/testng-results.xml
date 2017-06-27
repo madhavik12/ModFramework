@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Page Displayed<br>]]>
+    </line>
+    <line>
+      <![CDATA[UN and PWD are Displayed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Home page displayed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Welcome qaplanet1 displayed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged out and Login page Displayed<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="modularframework" duration-ms="33106" started-at="2017-06-27T19:55:29Z" finished-at="2017-06-27T19:56:02Z">
+    <groups>
+    </groups>
+    <test name="logintest" duration-ms="33106" started-at="2017-06-27T19:55:29Z" finished-at="2017-06-27T19:56:02Z">
+      <class name="TestScripts.LoginTestCase">
+        <test-method status="PASS" signature="VerifyLogin()[pri:0, instance:TestScripts.LoginTestCase@14bef66]" name="VerifyLogin" duration-ms="33013" started-at="2017-06-27T20:55:29Z" finished-at="2017-06-27T20:56:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page Displayed<br>]]>
+            </line>
+            <line>
+              <![CDATA[UN and PWD are Displayed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Home page displayed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Welcome qaplanet1 displayed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Successfully logged out and Login page Displayed<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+      </class> <!-- TestScripts.LoginTestCase -->
+    </test> <!-- logintest -->
+  </suite> <!-- modularframework -->
+</testng-results>
