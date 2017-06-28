@@ -68,6 +68,7 @@ Reporter.log("Welcome "+username+" displayed");
 // Log out from application
 public void LogoutFromApp()
 {
+	System.out.println("finding logout link");
 	driver.findElement(By.linkText("Logout")).click();
 	wait.until(ExpectedConditions.titleIs("OrangeHRM - New Level of HR Management"));
 // Verify Home Page
