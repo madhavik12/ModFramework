@@ -72,7 +72,7 @@ public void LogoutFromApp()
 	driver.findElement(By.linkText("Logout")).click();
 	wait.until(ExpectedConditions.titleIs("OrangeHRM - New Level of HR Management"));
 // Verify Home Page
-	System.out.println("comparing page title");
+	//System.out.println("comparing page title");
 	assertEquals(driver.getTitle(),"OrangeHRM - New Level of HR Management");
 	Reporter.log("Successfully logged out and Login page Displayed");
 }
