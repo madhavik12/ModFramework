@@ -74,7 +74,7 @@ public void LogoutFromApp()
 // Verify Home Page
 	//System.out.println("comparing page title");
 	assertEquals(driver.getTitle(),"OrangeHRM - New Level of HR Management");
-	Reporter.log("Successfully logged out and Login page Displayed");
+	Reporter.log("yeah Successfully logged out and Login page Displayed");
 }
 		
 
