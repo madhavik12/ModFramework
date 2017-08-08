@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import BusinessLogic.BusinessFunctions;
 
-public class LoginTestCase {
+public class LoginTest {
 	@Test
 	public void VerifyLogin()
 	{

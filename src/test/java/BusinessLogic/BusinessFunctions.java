@@ -57,24 +57,24 @@ driver.findElement(By.name("Submit")).click();
 wait.until(ExpectedConditions.titleIs("OrangeHRM"));
 // verify Home Page 
 assertEquals(driver.getTitle(),"OrangeHRM");
-Reporter.log("Home page displayed");
+Reporter.log("Home page is displayed");
 
 //Get Welcome Text
 String weltext=driver.findElement(By.xpath("//*[@id='option-menu']/li[1]")).getText();
 // Verify Welcome Text
 assertEquals(weltext,"Welcome "+username);
-Reporter.log("Welcome "+username+" displayed");
+Reporter.log("Welcome "+username+" displayed on the home page");
 }
 // Log out from application
 public void LogoutFromApp()
 {
-	System.out.println("finding logout link");
+	System.out.println("finds the logout link");
 	driver.findElement(By.linkText("Logout")).click();
 	wait.until(ExpectedConditions.titleIs("OrangeHRM - New Level of HR Management"));
 // Verify Home Page
 	//System.out.println("comparing page title");
 	assertEquals(driver.getTitle(),"OrangeHRM - New Level of HR Management");
-	Reporter.log("yeahyeah Successfully logged out and Login page Displayed");
+	Reporter.log("logged out successfully and Login page is  Displayed");
 }
 		
 

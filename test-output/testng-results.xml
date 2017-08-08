@@ -8,21 +8,21 @@
       <![CDATA[UN and PWD are Displayed<br>]]>
     </line>
     <line>
-      <![CDATA[Home page displayed<br>]]>
+      <![CDATA[Home page is displayed<br>]]>
     </line>
     <line>
-      <![CDATA[Welcome qaplanet1 displayed<br>]]>
+      <![CDATA[Welcome qaplanet1 displayed on the home page<br>]]>
     </line>
     <line>
-      <![CDATA[Successfully logged out and Login page Displayed<br>]]>
+      <![CDATA[yeahyeah Successfully logged out and Login page Displayed<br>]]>
     </line>
   </reporter-output>
-  <suite name="modularframework" duration-ms="33106" started-at="2017-06-27T19:55:29Z" finished-at="2017-06-27T19:56:02Z">
+  <suite name="modularframework" duration-ms="14088" started-at="2017-07-24T16:56:55Z" finished-at="2017-07-24T16:57:09Z">
     <groups>
     </groups>
-    <test name="logintest" duration-ms="33106" started-at="2017-06-27T19:55:29Z" finished-at="2017-06-27T19:56:02Z">
+    <test name="logintest" duration-ms="14088" started-at="2017-07-24T16:56:55Z" finished-at="2017-07-24T16:57:09Z">
       <class name="TestScripts.LoginTestCase">
-        <test-method status="PASS" signature="VerifyLogin()[pri:0, instance:TestScripts.LoginTestCase@14bef66]" name="VerifyLogin" duration-ms="33013" started-at="2017-06-27T20:55:29Z" finished-at="2017-06-27T20:56:02Z">
+        <test-method status="PASS" signature="VerifyLogin()[pri:0, instance:TestScripts.LoginTestCase@14bef66]" name="VerifyLogin" duration-ms="14068" started-at="2017-07-24T17:56:55Z" finished-at="2017-07-24T17:57:09Z">
           <reporter-output>
             <line>
               <![CDATA[Login Page Displayed<br>]]>
@@ -31,13 +31,13 @@
               <![CDATA[UN and PWD are Displayed<br>]]>
             </line>
             <line>
-              <![CDATA[Home page displayed<br>]]>
+              <![CDATA[Home page is displayed<br>]]>
             </line>
             <line>
-              <![CDATA[Welcome qaplanet1 displayed<br>]]>
+              <![CDATA[Welcome qaplanet1 displayed on the home page<br>]]>
             </line>
             <line>
-              <![CDATA[Successfully logged out and Login page Displayed<br>]]>
+              <![CDATA[yeahyeah Successfully logged out and Login page Displayed<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- VerifyLogin -->
